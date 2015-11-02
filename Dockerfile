@@ -4,5 +4,4 @@ MAINTAINER luodaoyi <admin@52res.com>
 RUN echo "deb http://nginx.org/packages/mainline/debian/ jessie nginx" >> /etc/apt/sources.list
 RUN apt-get update && \
     apt-get install -y git && \
-    rm -rf /var/lib/apt/lists/* 
-RUN sed -i "s|#gzip  on;|gzip  on; etag  off; server_tokens off; gzip_types *;|" /etc/nginx/nginx.conf
+    rm -rf /var/lib/apt/lists/*
