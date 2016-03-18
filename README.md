@@ -1,2 +1,2 @@
 # docker-library-nginx-git
-Doucker library ------Nginx with git 
+Docker library ------ Nginx with git 
